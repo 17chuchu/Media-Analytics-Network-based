@@ -63,6 +63,8 @@ A number can be appended to the command to generate Sum of Squared Errors graph 
 python3 apps.py showssegraph 20
 ```
 
+Credit for SSE Graph : https://www.kaggle.com/jbencina/clustering-documents-with-tfidf-and-kmeans
+
 ### 5) Clustering
 This method will cluster and print the most frequent users, hashtags, mentioned users in each group. You can access the implementation in `ClusteringTweet.run`. The first most important is `ClusteringTweet.cluster_texts`, which is a pipeline for converting a list of texts into a bag of words using `CountVectorizer`, then to a TF-IDF vector using `TfidfTransformer`, and then to a group using `KMeans` clustering. Finally, a table which shows the top 10 common user id, top 10 hashtags, and the top 10 most mentioned users. 
 
