@@ -14,7 +14,7 @@ Secondly, in case you host your MongoDB database elsewhere. You can change the d
 MongoDBManager.client = pymongo.MongoClient("mongodb://localhost:27017/")
 ```
 
-Thirdly, you should import the data into your MongoDB database. You should name the database `socialmediadatabase`, if you want the application to work right away. If not, you can change the database name in `System/MongoDBManager.py`. This line is what you will be looking for.
+Thirdly, you should import the sample data into your MongoDB database. You can download sample data [here](https://drive.google.com/open?id=1GqjMegZncrWFRlZZy4nHL1xKTJ-iHaTg) since git does not allow data larger than 100mb. You should name the database `socialmediadatabase`, if you want the application to work right away. If not, you can change the database name in `System/MongoDBManager.py`. This line is what you will be looking for.
 
 ```python
 MongoDBManager.db = MongoDBManager.client["socialmediadatabase"]
