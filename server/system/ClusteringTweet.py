@@ -15,7 +15,7 @@ from sklearn.decomposition import PCA
 import matplotlib.pyplot as plt
 
 
-from System.MongoDBManager import MongoDBManager
+from system.MongoDBManager import MongoDBManager
 
 
 class ClusteringTweet:

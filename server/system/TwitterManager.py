@@ -9,7 +9,7 @@ import threading
 import tweepy
 
 
-from System.MongoDBManager import MongoDBManager
+from system.MongoDBManager import MongoDBManager
 
 
 class TwitterManager:

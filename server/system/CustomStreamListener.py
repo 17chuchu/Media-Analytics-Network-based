@@ -9,8 +9,8 @@ import tweepy
 
 from django.db import connection
 
-from System.MongoDBManager import MongoDBManager
-from System.TwitterManager import TwitterManager
+from system.MongoDBManager import MongoDBManager
+from system.TwitterManager import TwitterManager
 
 class CustomStreamListener(tweepy.StreamListener):
 

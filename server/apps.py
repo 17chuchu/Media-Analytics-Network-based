@@ -2,17 +2,17 @@ import sys
 import tweepy
 import threading
 
-from System.TwitterManager import TwitterManager
+from system.TwitterManager import TwitterManager
 
-from System.MongoDBManager import MongoDBManager
+from system.MongoDBManager import MongoDBManager
 
-from System.CustomStreamListener import CustomStreamListener
+from system.CustomStreamListener import CustomStreamListener
 
-from System.ClusteringTweet import ClusteringTweet
+from system.ClusteringTweet import ClusteringTweet
 
-from System.UserInteractionGraph import UserInteractionGraph
+from system.UserInteractionGraph import UserInteractionGraph
 
-from System.HashtagInteractionGraph import HashtagInteractionGraph
+from system.HashtagInteractionGraph import HashtagInteractionGraph
 
 
 

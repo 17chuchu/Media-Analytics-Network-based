@@ -5,8 +5,8 @@ import networkx as nx
 
 import numpy as np
 
-from System.MongoDBManager import MongoDBManager
-from System.ClusteringTweet import ClusteringTweet
+from system.MongoDBManager import MongoDBManager
+from system.ClusteringTweet import ClusteringTweet
 
 
 

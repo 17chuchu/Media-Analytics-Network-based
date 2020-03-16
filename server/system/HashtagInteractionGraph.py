@@ -8,9 +8,9 @@ import numpy as np
 
 import tweepy
 
-from System.MongoDBManager import MongoDBManager
-from System.ClusteringTweet import ClusteringTweet
-from System.TwitterManager import TwitterManager
+from system.MongoDBManager import MongoDBManager
+from system.ClusteringTweet import ClusteringTweet
+from system.TwitterManager import TwitterManager
 
 
 
